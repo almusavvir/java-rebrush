@@ -11,7 +11,13 @@ public class OneD {
 
         numarr2[0] = 100;
 
-        System.out.println(Arrays.toString(numarr2));
+        System.out.println(numarr2);
 
+        System.out.println(System.identityHashCode(numarr));
+
+        int[] numarr3 = new int[4];
+        numarr3[0] = 11111;
+
+        System.out.println(Arrays.toString(numarr3));
     }
 }
