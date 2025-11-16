@@ -7,6 +7,6 @@ public class CharAlphabet {
             System.out.print(c + " ");
         }
 
-        System.out.println(UnicodeAlpha.castToUnicode(808090));
+//        System.out.println(UnicodeAlpha.castToUnicode(808090));
     }
 }
